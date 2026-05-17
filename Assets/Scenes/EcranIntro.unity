@@ -598,7 +598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
   boutonPoisson: {fileID: 765472925}
-  niveau1: Niveau1
+  niveau1: Niveaux
 --- !u!114 &765472925
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,6 +7,10 @@ public class Bait : MonoBehaviour
     [SerializeField] private fildepeche rope;
     [SerializeField] private float springStrength = 50f;  // la vitesse à laquelle l'hameçon revient à sa position initiale
     [SerializeField] private float damping = 0.85f;       // le facteur de réduction de la vitesse pour simuler l'amortissement du mouvement
+
+    [Header("Sons interactions")]
+    // public AudioClip BonPoissonSound;
+    // public AudioClip MauvaisPoissonSound;
 public affichagetextealeatoire scriptTexte;
     private Vector2 velocity;
     private Vector2 initialPosition;
@@ -71,12 +75,14 @@ public   void OnTriggerEnter2D(Collider2D collision) {
    if (collision.gameObject.tag ==  scriptTexte.couleurChoisie) {
       //code pour le poisson rouge
        Debug.Log("bon poisson");
+    //    audioSource.PlayOneShot(BonPoissonSound); //jouer le son du bon poisson
        //rétroaction positive : redemarrer la couleur du texte
        collision.gameObject.GetComponent<GestionPoisson>().DesactiverPoisson();
        scriptTexte.Redmarrer();
        
-   }else{
+   }else if (collision.gameObject.tag != scriptTexte.couleurChoisie){
     Debug.Log("mauvais poisson");
+    // audioSource.PlayOneShot(MauvaisPoissonSound); //jouer le son du mauvais poisson
     //POUR VOLET ******3 : jouer le son (après une certaine durée on renomme la couleur affichée (rappeler à maxime que au-dessus, on mets un if pour une correspondance entre la couleur du texte et le tag du poisson, mais il y aura une correspondance de son (pour les instructions de la rétroaction) pour CHAQUE COULEUR))
     
    }
