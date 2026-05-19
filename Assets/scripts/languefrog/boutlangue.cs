@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Bait : MonoBehaviour
+public class Boutlangue : MonoBehaviour
 {
     //variables pour la physuique de l'hamecon
     [SerializeField] private float gravity = -1.5f;
