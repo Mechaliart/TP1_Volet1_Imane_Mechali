@@ -4,15 +4,13 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - rouge
-  - vert
-  - bleu
-  - jaune
-  - orange
   - Rouge
   - Vert
   - Bleu
   - Jaune
+  - Orange
+  - Mauve
+  - Rose
   layers:
   - Default
   - TransparentFX

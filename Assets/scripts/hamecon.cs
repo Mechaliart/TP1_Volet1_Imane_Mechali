@@ -68,7 +68,7 @@ public affichagetextealeatoire scriptTexte;
     //   si l'hamecon touche un poisson avec chaque couleur
     //     si le poisson correspond a la couleur du texte, on redemarre la couleur du texte
 
-public   void OnTriggerEnter2D(Collider2D collision) {
+public void OnTriggerEnter2D(Collider2D collision) {
    
     
 

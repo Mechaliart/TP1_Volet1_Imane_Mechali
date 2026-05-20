@@ -8,7 +8,7 @@ public class genererlangue : MonoBehaviour
     private LineRenderer lineRenderer;
     private List<RopeSegment> ropeSegments = new List<RopeSegment>();
     // private float ropeSegLen = 0.25f;
-    private int segmentLength = 20; // permet de régler la longueur du fil de peche
+    private int segmentLength = 7; // permet de régler la longueur du fil de peche
     private float lineWidth = 0.5f;
     public float ropeSegLen = 0.25f; // Dans hamecon.cs se trouve cette variable, il faut la rendre publique pour y accéder depuis le script du hameçon
 

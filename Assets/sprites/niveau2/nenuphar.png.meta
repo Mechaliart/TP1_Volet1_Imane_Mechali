@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d967ae299873fe54085f2438329cf464
+guid: abd8544f39682f84fb45435316d1f8ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5375923265491692083
-    second: 1000002518_0
+      213: -3487900149830766607
+    second: nenuphar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 1000002518_0
+      name: nenuphar_0
       rect:
         serializedVersion: 2
-        x: 98
-        y: 12
-        width: 865
-        height: 898
+        x: 11
+        y: 69
+        width: 480
+        height: 234
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33ae3632abd1b9a40800000000000000
-      internalID: 5375923265491692083
+      spriteID: 1ff2e4d1b4d789fc0800000000000000
+      internalID: -3487900149830766607
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      1000002518_0: 5375923265491692083
+      nenuphar_0: -3487900149830766607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

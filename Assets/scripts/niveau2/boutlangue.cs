@@ -65,27 +65,25 @@ public affichagetextealeatoire scriptTexte;
     }
 
 
-      //si l'hamecon touche un poisson avec chaque couleur
-        //si le poisson correspond a la couleur du texte, on redemarre la couleur du texte
+    //   si l'hamecon touche un poisson avec chaque couleur
+    //     si le poisson correspond a la couleur du texte, on redemarre la couleur du texte
 
-// public   void OnTriggerEnter2D(Collider2D collision) {
-   
-    
+public void OnTriggerEnter2D(Collider2D collision) {
+    if (collision.gameObject.tag == scriptTexte.couleurChoisie) {
+        Debug.Log("bonne grenouille");
+        
+        Gestiongrenouille g = collision.gameObject.GetComponent<Gestiongrenouille>();
+        if (g != null) {
+            g.DesactiverGrenouille(); 
+        } else {
+            Debug.Log("Gestiongrenouille manquant sur: " + collision.gameObject.name);
+        }
+        
+        scriptTexte.Redmarrer();
 
-//    if (collision.gameObject.tag ==  scriptTexte.couleurChoisie) {
-//       //code pour le poisson rouge
-//        Debug.Log("bon poisson");
-//     //    audioSource.PlayOneShot(BonPoissonSound); //jouer le son du bon poisson
-//        //rétroaction positive : redemarrer la couleur du texte
-//        collision.gameObject.GetComponent<GestionPoisson>().DesactiverPoisson();
-//        scriptTexte.Redmarrer();
-       
-//    }else if (collision.gameObject.tag != scriptTexte.couleurChoisie){
-//     Debug.Log("mauvais poisson");
-//     // audioSource.PlayOneShot(MauvaisPoissonSound); //jouer le son du mauvais poisson
-//     //POUR VOLET ******3 : jouer le son (après une certaine durée on renomme la couleur affichée (rappeler à maxime que au-dessus, on mets un if pour une correspondance entre la couleur du texte et le tag du poisson, mais il y aura une correspondance de son (pour les instructions de la rétroaction) pour CHAQUE COULEUR))
-    
-//    }
-// }  
+    } else {
+        Debug.Log("mauvaise grenouille");
+    }
+} 
 
 }
