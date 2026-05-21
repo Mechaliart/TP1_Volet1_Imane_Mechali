@@ -6,9 +6,6 @@ public class GestionPoisson : MonoBehaviour
     public void DesactiverPoisson(){
        Destroy(this.gameObject);
     }
-//  public void  ReafficherPoisson(){
-//     this.gameObject.SetActive(true);
-     
-//  }   
+
 
 }

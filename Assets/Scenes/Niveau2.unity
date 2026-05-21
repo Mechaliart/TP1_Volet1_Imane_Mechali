@@ -1953,7 +1953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 17, y: -199}
+  m_AnchoredPosition: {x: 17, y: -212.4}
   m_SizeDelta: {x: 458.9305, y: 74.8667}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &530183416
@@ -2268,8 +2268,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fe8166f2c1a02243bf93de3ab3b9b25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Glisserlangue
-  GrabSound: {fileID: 0}
-  DropSound: {fileID: 0}
+  GrabSound: {fileID: 8300000, guid: 6ba6e1e9cc12f2f4ca02e04b1e42f670, type: 3}
+  DropSound: {fileID: 8300000, guid: 60777f983f2d8fe4198bcdb236a636f0, type: 3}
 --- !u!50 &649407637
 Rigidbody2D:
   serializedVersion: 5
@@ -3352,7 +3352,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -282, y: 145}
+  m_AnchoredPosition: {x: -298.3, y: 152.2}
   m_SizeDelta: {x: 124.709, y: 88.7426}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &967523268
@@ -3987,7 +3987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

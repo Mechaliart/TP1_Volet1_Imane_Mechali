@@ -82,8 +82,7 @@ public void OnTriggerEnter2D(Collider2D collision) {
        
    }else if (collision.gameObject.tag != scriptTexte.couleurChoisie){
     Debug.Log("mauvais poisson");
-    // audioSource.PlayOneShot(MauvaisPoissonSound); //jouer le son du mauvais poisson
-    //POUR VOLET ******3 : jouer le son (après une certaine durée on renomme la couleur affichée (rappeler à maxime que au-dessus, on mets un if pour une correspondance entre la couleur du texte et le tag du poisson, mais il y aura une correspondance de son (pour les instructions de la rétroaction) pour CHAQUE COULEUR))
+ 
     
    }
 }  

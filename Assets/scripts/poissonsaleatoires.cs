@@ -9,7 +9,7 @@ public class poissonsaleatoires : MonoBehaviour
     public List<GameObject> poissons; // Liste des poissons à faire apparaître
     void Start()
     {
-        InvokeRepeating("CreerPoisson", 0f, 5f); // Appelle la méthode CreerPoisson toutes les 2 secondes
+        InvokeRepeating("CreerPoisson", 0f, 2f); // Appelle la méthode CreerPoisson toutes les 2 secondes
     }
 
     // Update is called once per frame
